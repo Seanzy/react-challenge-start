@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
       <div>
-        <img className='img-responsive' src="vegies-left.jpg" alt=""></img>
+        <img className='img-responsive' src={require('../../images/vegies-left.jpg')} alt=''></img>
       </div>
       <div className='header-right'>
         <div className='header-titles'>
